@@ -1,0 +1,240 @@
+/*****BASE STYLES*****/
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navigation {
+height: 148px
+}
+
+#main {
+  height: 600px;
+}
+
+#about, #contact {
+  height: 600px;
+}
+
+#skills {
+  height: 700px;
+}
+
+#footer {
+  height: 65px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.fourth-width {
+  width: 300px;
+  float: left;
+
+}
+
+/***** HEADER *****/
+
+
+#navigation
+background-color: #ffffff;
+
+
+nav {
+    float: right;
+    padding: 75px 40px;
+
+}
+
+img {
+  padding-top: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 80px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    padding-left: 120px;
+}
+
+
+main {
+background-Image:url('../img/sbbircher_header.png');
+background-size: cover;
+}
+
+hr.style1{
+	border-top: 2px solid #000000;
+}
+
+main h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Source-Sans-Pro', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #000000;
+    padding-top: 350px;
+    text-shadow: 3px 3px 5px #a6d5df;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 80px; 0; 80px;
+
+}
+
+#about h2 {
+  font-family: 'Source-Sans-Pro', sans-serif;
+  font-size: 36px;
+
+}
+
+#about p {
+  font-size: 21px;
+  color: #7f7f7f;
+  line-height: 42px;
+  padding-right: 50px;
+
+}
+
+/***** WORK *****/
+
+
+
+#skills .full-width {
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+
+#skills {
+  background-image: url('../Img/skills_background.png');
+  background-size: cover;
+}
+
+#skills h2 {
+  font-family: 'Source-Sans-Pro',sans-serif;
+  font-size: 36px;
+}
+
+#skills img {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#skills h3 {
+  font-family: 'Source-Sans-Pro', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding-right: 30px;
+
+}
+
+#skills p {
+  font-size: 21px;
+  color: #000000;
+  line-height: 42px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/***** CONTACT *****/
+
+
+#contact .full-width {
+  padding: 110px; 0;
+
+}
+
+
+#contact-img {
+  padding: 0px;
+  border: 12px solid #69cbcc;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+#envelope {
+  padding: 0 10px 0 115px;
+  vertical-align: middle;
+
+}
+
+#contact h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+
+}
+
+#email-header {
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+    color: #606060;
+}
+
+#socialmedia-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    margin: 40px 0 0px 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #69cbcc;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 22px;
+    padding-top: 0px;
+}
+
+#footer {
+  background-image: url('../Img/footer.png');
+  background-size: cover;
+}
